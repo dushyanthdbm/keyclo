@@ -33,7 +33,6 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-import org.keycloak.models.UserModel;
 
 /**
  * PartialImport handler for Clients.
@@ -94,15 +93,6 @@ public class ClientsPartialImport extends AbstractPartialImport<ClientRepresenta
     @Override
     public void remove(RealmModel realm, KeycloakSession session, ClientRepresentation clientRep) {
         ClientModel clientModel = realm.getClientByClientId(getName(clientRep));
-        // remove the associated service account if the account exists
-        if (clientModel.isServiceAccountsEnabled()) {
-            UserModel serviceAccountUser = session.users().getServiceAccount(clientModel);
-            if (serviceAccountUser != null) {
-                session.users().removeUser(realm, serviceAccountUser);
-            }
-        }
-        // the authorization resource server seems to be removed using the delete event, so it's not needed
-        // remove the client itself
         realm.removeClient(clientModel.getId());
     }
 
@@ -117,8 +107,7 @@ public class ClientsPartialImport extends AbstractPartialImport<ClientRepresenta
             }
         }
 
-        ClientModel client = RepresentationToModel.createClient(session, realm, clientRep, true);
-        RepresentationToModel.importAuthorizationSettings(clientRep, client, session);
+        RepresentationToModel.createClient(session, realm, clientRep, true);
     }
 
     public static boolean isInternalClient(String clientId) {
