@@ -98,7 +98,7 @@
         <jetty93.version>9.3.9.v20160517</jetty93.version>
         <jetty94.version>9.4.2.v20170220</jetty94.version>
         <woodstox.version>5.0.3</woodstox.version>
-        <xmlsec.version>2.1.4</xmlsec.version>
+        <xmlsec.version>2.1.7</xmlsec.version>
         <glassfish.json.version>1.1.6</glassfish.json.version>
         <wildfly.common.version>1.5.1.Final</wildfly.common.version>
         <ua-parser.version>1.4.3</ua-parser.version>        
