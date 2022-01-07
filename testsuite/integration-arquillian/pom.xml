@@ -81,7 +81,7 @@
 
         <jdbc.mvn.groupId>com.h2database</jdbc.mvn.groupId>
         <jdbc.mvn.artifactId>h2</jdbc.mvn.artifactId>
-        <jdbc.mvn.version>${h2.version}</jdbc.mvn.version>
+        <jdbc.mvn.version>2.0.206</jdbc.mvn.version>
 
         <keycloak.connectionsJpa.schema>DEFAULT</keycloak.connectionsJpa.schema>
 
