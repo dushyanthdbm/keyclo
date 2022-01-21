@@ -63,7 +63,7 @@
         <cxf.undertow.version>3.3.3</cxf.undertow.version>
         <dom4j.version>2.1.1</dom4j.version>
         <github.relaxng.version>2.3.1</github.relaxng.version>
-        <h2.version>1.4.193</h2.version>
+        <h2.version>2.1.210</h2.version>
         <jakarta.persistence.version>2.2.3</jakarta.persistence.version>
         <hibernate.core.version>5.3.14.Final</hibernate.core.version>
         <hibernate.c3p0.version>5.3.14.Final</hibernate.c3p0.version>
