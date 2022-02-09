@@ -67,7 +67,7 @@
         <jakarta.persistence.version>2.2.3</jakarta.persistence.version>
         <hibernate.core.version>5.3.14.Final</hibernate.core.version>
         <hibernate.c3p0.version>5.3.14.Final</hibernate.c3p0.version>
-        <infinispan.version>9.4.16.Final</infinispan.version>
+        <infinispan.version>11.0.6.Final</infinispan.version>
         <!-- Will be used in the product. Upstream versions are overridden in the community profile -->
         <jackson.version>2.10.0</jackson.version>
         <jackson.databind.version>${jackson.version}</jackson.databind.version>
