@@ -65,7 +65,7 @@
         <github.relaxng.version>2.3.1</github.relaxng.version>
         <h2.version>1.4.193</h2.version>
         <jakarta.persistence.version>2.2.3</jakarta.persistence.version>
-        <hibernate.core.version>5.3.14.Final</hibernate.core.version>
+        <hibernate.core.version>5.4.24.Final</hibernate.core.version>
         <hibernate.c3p0.version>5.3.14.Final</hibernate.c3p0.version>
         <infinispan.version>9.4.16.Final</infinispan.version>
         <!-- Will be used in the product. Upstream versions are overridden in the community profile -->
