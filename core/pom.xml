@@ -101,6 +101,9 @@
                         </goals>
                     </execution>
                 </executions>
+              <properties>
+  <sonar.projectKey>keyclo</sonar.projectKey>
+</properties>
                 <configuration>
                     <instructions>
                         <Bundle-ClassPath>.</Bundle-ClassPath>
