@@ -56,7 +56,7 @@
         <apache.httpcomponents.httpcore.version>4.4.5</apache.httpcomponents.httpcore.version>
         <apache.mime4j.version>0.6</apache.mime4j.version>
         <jboss.dmr.version>1.5.0.Final</jboss.dmr.version>
-        <bouncycastle.version>1.60</bouncycastle.version>
+        <bouncycastle.version>1.67</bouncycastle.version>
         <cxf.version>3.3.3</cxf.version>
         <cxf.jetty.version>3.3.3</cxf.jetty.version>
         <cxf.jaxrs.version>3.3.3</cxf.jaxrs.version>
